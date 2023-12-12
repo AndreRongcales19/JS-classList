@@ -1,0 +1,33 @@
+.box {
+    height: 100px;
+    width: 200px;
+    background-color: aquamarine; 
+}
+
+.error {
+    border: 1px solid red; 
+}
+
+.christmas {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.blinker {
+        animation: flash 1s;
+        animation-iteration-count: infinite;
+}
+
+@keyframes flash {
+    from {
+        background-color: white;
+    }
+    to {
+        border-radius: 50%;
+        background-color: tomato;
+    }
+}
+
+
+
